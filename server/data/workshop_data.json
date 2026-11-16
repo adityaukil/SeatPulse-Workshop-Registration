@@ -1,0 +1,1102 @@
+{
+  "workshops": [
+    {
+      "id": 1,
+      "title": "Mastering Generative AI & Autonomous Agents",
+      "description": "Deep dive into building real-world multi-agent systems, LLM memory architectures, function calling, and self-improving prompt loops with hands-on coding labs.",
+      "instructor": "Dr. Elena Rostova",
+      "instructor_role": "Principal AI Research Scientist @ DeepCognition",
+      "instructor_avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "category": "Artificial Intelligence",
+      "date": "Oct 24, 2026",
+      "time": "10:00 AM - 1:00 PM EST",
+      "location": "Virtual Auditorium Alpha (Zoom)",
+      "max_seats": 30,
+      "tags": [
+        "AI Agents",
+        "LLMs",
+        "Python",
+        "LangChain"
+      ],
+      "created_at": "2026-10-03T06:19:02.078Z"
+    },
+    {
+      "id": 2,
+      "title": "Next.js 15 & React 19 Full-Stack Architecture Masterclass",
+      "description": "Master Server Components, Server Actions, streaming SSR, dynamic caching, and end-to-end database security patterns for enterprise web apps.",
+      "instructor": "Marcus Vance",
+      "instructor_role": "Lead Frontend Architect @ Vercel Alumni",
+      "instructor_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "category": "Web Development",
+      "date": "Oct 26, 2026",
+      "time": "2:00 PM - 5:30 PM EST",
+      "location": "San Francisco Tech Hub - Room 402",
+      "max_seats": 5,
+      "tags": [
+        "React 19",
+        "Next.js",
+        "TypeScript",
+        "Tailwind"
+      ],
+      "created_at": "2026-10-04T06:19:02.078Z"
+    },
+    {
+      "id": 3,
+      "title": "Cloud-Native Kubernetes & Microservices at Scale",
+      "description": "Practical hands-on workshop covering Docker containerization, Helm charts, Kubernetes auto-scaling, Istio service mesh, and observability pipelines.",
+      "instructor": "Siddharth Nair",
+      "instructor_role": "VP of Infrastructure @ CloudScale Labs",
+      "instructor_avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "category": "Cloud & DevOps",
+      "date": "Oct 29, 2026",
+      "time": "11:00 AM - 3:00 PM EST",
+      "location": "Virtual Lab Beta (Live Cloud Sandboxes)",
+      "max_seats": 15,
+      "tags": [
+        "Kubernetes",
+        "Docker",
+        "DevOps",
+        "Microservices"
+      ],
+      "created_at": "2026-10-05T06:19:02.078Z"
+    }
+  ],
+  "registrations": [
+    {
+      "id": 1,
+      "workshop_id": 1,
+      "name": "Alice Walker",
+      "email": "alice.walker@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "a7a43e89-81bb-45d9-81ac-c02f20465fa8",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T00:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 2,
+      "workshop_id": 1,
+      "name": "Bob Chen",
+      "email": "bob.chen@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "5364f6ef-8385-4d83-9278-18e459febf3c",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T01:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 3,
+      "workshop_id": 1,
+      "name": "Carlos Gomez",
+      "email": "carlos.gomez@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "967b7daf-4153-49dd-9c94-163317e14301",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T02:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 4,
+      "workshop_id": 1,
+      "name": "Diana Prince",
+      "email": "diana.prince@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "413e9f51-ffba-4611-979b-baf2710fe03a",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T03:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 5,
+      "workshop_id": 1,
+      "name": "Ethan Hunt",
+      "email": "ethan.hunt@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "c3d20488-e36b-4303-99c8-a96b7f16f690",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T04:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 6,
+      "workshop_id": 1,
+      "name": "Fiona Gallagher",
+      "email": "fiona.gallagher@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "978ac91f-4f8c-4b7a-a972-0ee615eef7a9",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T05:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 7,
+      "workshop_id": 1,
+      "name": "George Miller",
+      "email": "george.miller@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "6bca73cd-0081-4752-8854-773fab936f9a",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T06:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 8,
+      "workshop_id": 1,
+      "name": "Hannah Abbott",
+      "email": "hannah.abbott@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "5c47f803-96d5-43b6-8451-937f88134a2d",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T07:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 9,
+      "workshop_id": 1,
+      "name": "Ian Malcolm",
+      "email": "ian.malcolm@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "896ec988-6683-427f-98c5-4d08478b595c",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T08:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 10,
+      "workshop_id": 1,
+      "name": "Julia Roberts",
+      "email": "julia.roberts@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "bdcd5441-386d-4117-b81d-97dc1b34940c",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T09:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 11,
+      "workshop_id": 1,
+      "name": "Kevin Flynn",
+      "email": "kevin.flynn@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "baaf2a33-756f-464f-9bc4-3f7b7f2b7661",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T10:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 12,
+      "workshop_id": 1,
+      "name": "Laura Croft",
+      "email": "laura.croft@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "31ed9f01-1328-4bee-8521-49a138f50cdc",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T11:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 13,
+      "workshop_id": 1,
+      "name": "Miles Morales",
+      "email": "miles.morales@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "87439fc4-7a49-4f4d-a060-b3069a1fd644",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T12:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 14,
+      "workshop_id": 1,
+      "name": "Nina Simone",
+      "email": "nina.simone@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "4b983910-1074-4761-8e98-d764812f642a",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T13:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 15,
+      "workshop_id": 1,
+      "name": "Oscar Isaac",
+      "email": "oscar.isaac@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "f823eea5-407a-4c85-a36d-44174c85fe6e",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T14:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 16,
+      "workshop_id": 1,
+      "name": "Peter Parker",
+      "email": "peter.parker@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "a5a5d4b9-f6ba-4b51-bab7-fe95a23479ba",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T15:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 17,
+      "workshop_id": 1,
+      "name": "Quinn Fabray",
+      "email": "quinn.fabray@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "d1df51e8-2e52-4af9-8db1-a27f354c3697",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T16:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 18,
+      "workshop_id": 1,
+      "name": "Rachel Green",
+      "email": "rachel.green@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "0a77ad50-a812-407e-9193-0fc04354697c",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T17:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 19,
+      "workshop_id": 1,
+      "name": "Steve Rogers",
+      "email": "steve.rogers@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "8dd7a1c6-94c9-433e-9cc0-434f25729848",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T18:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 20,
+      "workshop_id": 1,
+      "name": "Tony Stark",
+      "email": "tony.stark@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "f1b7cc5d-abcd-4592-aa21-9263f4bab0b0",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T19:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 21,
+      "workshop_id": 1,
+      "name": "Uma Thurman",
+      "email": "uma.thurman@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "1c889982-a3e2-457f-a60b-4566f00464e4",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T20:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 22,
+      "workshop_id": 1,
+      "name": "Victor Creed",
+      "email": "victor.creed@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "80c5963f-e342-40c8-98d8-e1cda1c78066",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T21:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 23,
+      "workshop_id": 1,
+      "name": "Wanda Maximoff",
+      "email": "wanda.maximoff@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "2bdf41ea-14ee-4d91-8fb2-da386a14106d",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T22:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 24,
+      "workshop_id": 1,
+      "name": "Xander Cage",
+      "email": "xander.cage@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "158f0ea9-bf0f-4c02-9f3c-c5774abe4d8d",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-07T23:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 25,
+      "workshop_id": 1,
+      "name": "Yara Shahidi",
+      "email": "yara.shahidi@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "94a5091b-f344-4f39-9cdf-0df6748c8266",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-08T00:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 26,
+      "workshop_id": 1,
+      "name": "Zack Snyder",
+      "email": "zack.snyder@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "de9a53e7-4af4-48c0-acdf-b67695d1a34a",
+      "notes": "Looking forward to building agents!",
+      "registered_at": "2026-10-08T01:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 27,
+      "workshop_id": 2,
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "9ba3cc88-eab3-4a1c-8722-9fedd8c94f3d",
+      "notes": "Excited for React 19 features",
+      "registered_at": "2026-10-07T10:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 28,
+      "workshop_id": 2,
+      "name": "Clark Kent",
+      "email": "clark.kent@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "58257425-7a8c-4bf7-ad64-21ee9d9e99c7",
+      "notes": "Excited for React 19 features",
+      "registered_at": "2026-10-07T11:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 29,
+      "workshop_id": 2,
+      "name": "Barry Allen",
+      "email": "barry.allen@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "a826ec2d-ce87-414e-b935-b6d0a3b16cb4",
+      "notes": "Excited for React 19 features",
+      "registered_at": "2026-10-07T12:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 30,
+      "workshop_id": 2,
+      "name": "Hal Jordan",
+      "email": "hal.jordan@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "42dafd85-6f4d-43ff-bf43-a480f081ebd7",
+      "notes": "Excited for React 19 features",
+      "registered_at": "2026-10-07T13:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 31,
+      "workshop_id": 2,
+      "name": "Arthur Curry",
+      "email": "arthur.curry@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "089afce9-9cdd-43e3-9545-223a455f45c4",
+      "notes": "Excited for React 19 features",
+      "registered_at": "2026-10-07T14:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 32,
+      "workshop_id": 2,
+      "name": "Oliver Queen",
+      "email": "oliver.queen@example.com",
+      "status": "WAITLIST",
+      "cancel_token": "b12504c2-3f0a-47dd-bfd1-250419374ddf",
+      "notes": "Put me on waitlist please",
+      "registered_at": "2026-10-08T01:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 33,
+      "workshop_id": 2,
+      "name": "Dinah Lance",
+      "email": "dinah.lance@example.com",
+      "status": "WAITLIST",
+      "cancel_token": "10174f5c-eda3-45f0-b940-47fdddcd2850",
+      "notes": "Put me on waitlist please",
+      "registered_at": "2026-10-08T02:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 34,
+      "workshop_id": 3,
+      "name": "Natasha Romanoff",
+      "email": "natasha.romanoff@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "82d6616b-a074-4cc9-b5ba-8847f0fa25cf",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T15:19:02.078Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 35,
+      "workshop_id": 3,
+      "name": "Clint Barton",
+      "email": "clint.barton@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "3464f84f-4028-498f-a657-c2e649fc9fba",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T16:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 36,
+      "workshop_id": 3,
+      "name": "Sam Wilson",
+      "email": "sam.wilson@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "ba7dbe42-fa9e-4616-99b9-8ae7070d84c8",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T17:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 37,
+      "workshop_id": 3,
+      "name": "Bucky Barnes",
+      "email": "bucky.barnes@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "706b101a-1c62-4017-9647-40ae49ebc518",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T18:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 38,
+      "workshop_id": 3,
+      "name": "Scott Lang",
+      "email": "scott.lang@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "5471b8ce-fc37-4068-ab65-f4cebdbf8724",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T19:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 39,
+      "workshop_id": 3,
+      "name": "Hope van Dyne",
+      "email": "hope.van.dyne@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "9fa23915-e25a-4a31-b0b6-808d0b3e898c",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T20:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 40,
+      "workshop_id": 3,
+      "name": "Carol Danvers",
+      "email": "carol.danvers@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "342e6b43-df1d-48c0-abd1-a3bfe1955877",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T21:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 41,
+      "workshop_id": 3,
+      "name": "Nick Fury",
+      "email": "nick.fury@example.com",
+      "status": "REGISTERED",
+      "cancel_token": "1e6f197e-8b30-4f95-9bf4-1a84cc7540e2",
+      "notes": "Setting up microservices cluster",
+      "registered_at": "2026-10-07T22:19:02.079Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 42,
+      "workshop_id": 1,
+      "name": "Aditya Ukil",
+      "email": "reachadityaukil@gmail.com",
+      "status": "CANCELLED",
+      "cancel_token": "df2199d6-3026-451d-87c3-ed66f5f29746",
+      "notes": null,
+      "registered_at": "2026-10-08T06:20:09.615Z",
+      "cancelled_at": "2026-10-08T06:21:49.190Z"
+    },
+    {
+      "id": 43,
+      "workshop_id": 2,
+      "name": "Aditya Ukil",
+      "email": "reachadityaukil@gmail.com",
+      "status": "CANCELLED",
+      "cancel_token": "3abd5381-f3ef-46ff-a5e8-a5ffc599fdcb",
+      "notes": null,
+      "registered_at": "2026-10-08T06:21:02.062Z",
+      "cancelled_at": "2026-10-08T06:21:44.683Z"
+    },
+    {
+      "id": 44,
+      "workshop_id": 1,
+      "name": "Aditya Ukil",
+      "email": "reachadityaukil@gmail.com",
+      "status": "REGISTERED",
+      "cancel_token": "392164e7-8e45-46b6-98b5-975693f9a327",
+      "notes": null,
+      "registered_at": "2026-10-08T06:34:05.992Z",
+      "cancelled_at": null
+    },
+    {
+      "id": 45,
+      "workshop_id": 1,
+      "name": "fvyfv",
+      "email": "vhyfty@gmail.com",
+      "status": "CANCELLED",
+      "cancel_token": "d3e4c156-121d-427c-a91d-e4cdc89de691",
+      "notes": null,
+      "registered_at": "2026-10-08T07:00:37.774Z",
+      "cancelled_at": "2026-10-08T07:01:03.014Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": 48,
+      "workshop_id": 1,
+      "action_type": "CANCELLED",
+      "user_name": "fvyfv",
+      "user_email": "vhyfty@gmail.com",
+      "message": "❌ fvyfv cancelled registration for \"Mastering Generative AI & Autonomous Agents\"",
+      "created_at": "2026-10-08T07:01:03.018Z"
+    },
+    {
+      "id": 47,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "fvyfv",
+      "user_email": "vhyfty@gmail.com",
+      "message": "🎉 fvyfv successfully registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "created_at": "2026-10-08T07:00:37.780Z"
+    },
+    {
+      "id": 46,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Aditya Ukil",
+      "user_email": "reachadityaukil@gmail.com",
+      "message": "🎉 Aditya Ukil successfully registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "created_at": "2026-10-08T06:34:05.997Z"
+    },
+    {
+      "id": 45,
+      "workshop_id": 1,
+      "action_type": "CANCELLED",
+      "user_name": "Aditya Ukil",
+      "user_email": "reachadityaukil@gmail.com",
+      "message": "❌ Aditya Ukil cancelled registration for \"Mastering Generative AI & Autonomous Agents\"",
+      "created_at": "2026-10-08T06:21:49.192Z"
+    },
+    {
+      "id": 44,
+      "workshop_id": 2,
+      "action_type": "CANCELLED",
+      "user_name": "Aditya Ukil",
+      "user_email": "reachadityaukil@gmail.com",
+      "message": "❌ Aditya Ukil cancelled registration for \"Next.js 15 & React 19 Full-Stack Architecture Masterclass\"",
+      "created_at": "2026-10-08T06:21:44.687Z"
+    },
+    {
+      "id": 43,
+      "workshop_id": 2,
+      "action_type": "WAITLIST_JOINED",
+      "user_name": "Aditya Ukil",
+      "user_email": "reachadityaukil@gmail.com",
+      "message": "⏳ Aditya Ukil joined waitlist for \"Next.js 15 & React 19 Full-Stack Architecture Masterclass\" (Position #3)",
+      "created_at": "2026-10-08T06:21:02.068Z"
+    },
+    {
+      "id": 42,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Aditya Ukil",
+      "user_email": "reachadityaukil@gmail.com",
+      "message": "🎉 Aditya Ukil successfully registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "created_at": "2026-10-08T06:20:09.616Z"
+    },
+    {
+      "id": 1,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Alice Walker",
+      "user_email": "alice.walker@example.com",
+      "message": "Alice Walker registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T00:19:02.078Z"
+    },
+    {
+      "id": 2,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Bob Chen",
+      "user_email": "bob.chen@example.com",
+      "message": "Bob Chen registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T01:19:02.078Z"
+    },
+    {
+      "id": 3,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Carlos Gomez",
+      "user_email": "carlos.gomez@example.com",
+      "message": "Carlos Gomez registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T02:19:02.078Z"
+    },
+    {
+      "id": 4,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Diana Prince",
+      "user_email": "diana.prince@example.com",
+      "message": "Diana Prince registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T03:19:02.078Z"
+    },
+    {
+      "id": 5,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Ethan Hunt",
+      "user_email": "ethan.hunt@example.com",
+      "message": "Ethan Hunt registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T04:19:02.078Z"
+    },
+    {
+      "id": 6,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Fiona Gallagher",
+      "user_email": "fiona.gallagher@example.com",
+      "message": "Fiona Gallagher registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T05:19:02.078Z"
+    },
+    {
+      "id": 7,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "George Miller",
+      "user_email": "george.miller@example.com",
+      "message": "George Miller registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T06:19:02.078Z"
+    },
+    {
+      "id": 8,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Hannah Abbott",
+      "user_email": "hannah.abbott@example.com",
+      "message": "Hannah Abbott registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T07:19:02.078Z"
+    },
+    {
+      "id": 9,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Ian Malcolm",
+      "user_email": "ian.malcolm@example.com",
+      "message": "Ian Malcolm registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T08:19:02.078Z"
+    },
+    {
+      "id": 10,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Julia Roberts",
+      "user_email": "julia.roberts@example.com",
+      "message": "Julia Roberts registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T09:19:02.078Z"
+    },
+    {
+      "id": 11,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Kevin Flynn",
+      "user_email": "kevin.flynn@example.com",
+      "message": "Kevin Flynn registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T10:19:02.078Z"
+    },
+    {
+      "id": 12,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Laura Croft",
+      "user_email": "laura.croft@example.com",
+      "message": "Laura Croft registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T11:19:02.078Z"
+    },
+    {
+      "id": 13,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Miles Morales",
+      "user_email": "miles.morales@example.com",
+      "message": "Miles Morales registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T12:19:02.078Z"
+    },
+    {
+      "id": 14,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Nina Simone",
+      "user_email": "nina.simone@example.com",
+      "message": "Nina Simone registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T13:19:02.078Z"
+    },
+    {
+      "id": 15,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Oscar Isaac",
+      "user_email": "oscar.isaac@example.com",
+      "message": "Oscar Isaac registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T14:19:02.078Z"
+    },
+    {
+      "id": 16,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Peter Parker",
+      "user_email": "peter.parker@example.com",
+      "message": "Peter Parker registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T15:19:02.078Z"
+    },
+    {
+      "id": 17,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Quinn Fabray",
+      "user_email": "quinn.fabray@example.com",
+      "message": "Quinn Fabray registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T16:19:02.078Z"
+    },
+    {
+      "id": 18,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Rachel Green",
+      "user_email": "rachel.green@example.com",
+      "message": "Rachel Green registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T17:19:02.078Z"
+    },
+    {
+      "id": 19,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Steve Rogers",
+      "user_email": "steve.rogers@example.com",
+      "message": "Steve Rogers registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T18:19:02.078Z"
+    },
+    {
+      "id": 20,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Tony Stark",
+      "user_email": "tony.stark@example.com",
+      "message": "Tony Stark registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T19:19:02.078Z"
+    },
+    {
+      "id": 21,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Uma Thurman",
+      "user_email": "uma.thurman@example.com",
+      "message": "Uma Thurman registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T20:19:02.078Z"
+    },
+    {
+      "id": 22,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Victor Creed",
+      "user_email": "victor.creed@example.com",
+      "message": "Victor Creed registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T21:19:02.078Z"
+    },
+    {
+      "id": 23,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Wanda Maximoff",
+      "user_email": "wanda.maximoff@example.com",
+      "message": "Wanda Maximoff registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T22:19:02.078Z"
+    },
+    {
+      "id": 24,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Xander Cage",
+      "user_email": "xander.cage@example.com",
+      "message": "Xander Cage registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-07T23:19:02.078Z"
+    },
+    {
+      "id": 25,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Yara Shahidi",
+      "user_email": "yara.shahidi@example.com",
+      "message": "Yara Shahidi registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-08T00:19:02.078Z"
+    },
+    {
+      "id": 26,
+      "workshop_id": 1,
+      "action_type": "REGISTERED",
+      "user_name": "Zack Snyder",
+      "user_email": "zack.snyder@example.com",
+      "message": "Zack Snyder registered for Mastering Generative AI & Autonomous Agents",
+      "created_at": "2026-10-08T01:19:02.078Z"
+    },
+    {
+      "id": 27,
+      "workshop_id": 2,
+      "action_type": "REGISTERED",
+      "user_name": "Bruce Wayne",
+      "user_email": "bruce.wayne@example.com",
+      "message": "Bruce Wayne registered for Next.js 15 & React 19 Masterclass",
+      "created_at": "2026-10-07T10:19:02.078Z"
+    },
+    {
+      "id": 28,
+      "workshop_id": 2,
+      "action_type": "REGISTERED",
+      "user_name": "Clark Kent",
+      "user_email": "clark.kent@example.com",
+      "message": "Clark Kent registered for Next.js 15 & React 19 Masterclass",
+      "created_at": "2026-10-07T11:19:02.078Z"
+    },
+    {
+      "id": 29,
+      "workshop_id": 2,
+      "action_type": "REGISTERED",
+      "user_name": "Barry Allen",
+      "user_email": "barry.allen@example.com",
+      "message": "Barry Allen registered for Next.js 15 & React 19 Masterclass",
+      "created_at": "2026-10-07T12:19:02.078Z"
+    },
+    {
+      "id": 30,
+      "workshop_id": 2,
+      "action_type": "REGISTERED",
+      "user_name": "Hal Jordan",
+      "user_email": "hal.jordan@example.com",
+      "message": "Hal Jordan registered for Next.js 15 & React 19 Masterclass",
+      "created_at": "2026-10-07T13:19:02.078Z"
+    },
+    {
+      "id": 31,
+      "workshop_id": 2,
+      "action_type": "REGISTERED",
+      "user_name": "Arthur Curry",
+      "user_email": "arthur.curry@example.com",
+      "message": "Arthur Curry registered for Next.js 15 & React 19 Masterclass",
+      "created_at": "2026-10-07T14:19:02.078Z"
+    },
+    {
+      "id": 32,
+      "workshop_id": 2,
+      "action_type": "WAITLIST_JOINED",
+      "user_name": "Oliver Queen",
+      "user_email": "oliver.queen@example.com",
+      "message": "Oliver Queen joined the waitlist for Next.js 15 & React 19 Masterclass (Position #1)",
+      "created_at": "2026-10-08T01:19:02.078Z"
+    },
+    {
+      "id": 33,
+      "workshop_id": 2,
+      "action_type": "WAITLIST_JOINED",
+      "user_name": "Dinah Lance",
+      "user_email": "dinah.lance@example.com",
+      "message": "Dinah Lance joined the waitlist for Next.js 15 & React 19 Masterclass (Position #2)",
+      "created_at": "2026-10-08T02:19:02.078Z"
+    },
+    {
+      "id": 34,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Natasha Romanoff",
+      "user_email": "natasha.romanoff@example.com",
+      "message": "Natasha Romanoff registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T15:19:02.078Z"
+    },
+    {
+      "id": 35,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Clint Barton",
+      "user_email": "clint.barton@example.com",
+      "message": "Clint Barton registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T16:19:02.079Z"
+    },
+    {
+      "id": 36,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Sam Wilson",
+      "user_email": "sam.wilson@example.com",
+      "message": "Sam Wilson registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T17:19:02.079Z"
+    },
+    {
+      "id": 37,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Bucky Barnes",
+      "user_email": "bucky.barnes@example.com",
+      "message": "Bucky Barnes registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T18:19:02.079Z"
+    },
+    {
+      "id": 38,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Scott Lang",
+      "user_email": "scott.lang@example.com",
+      "message": "Scott Lang registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T19:19:02.079Z"
+    },
+    {
+      "id": 39,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Hope van Dyne",
+      "user_email": "hope.van.dyne@example.com",
+      "message": "Hope van Dyne registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T20:19:02.079Z"
+    },
+    {
+      "id": 40,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Carol Danvers",
+      "user_email": "carol.danvers@example.com",
+      "message": "Carol Danvers registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T21:19:02.079Z"
+    },
+    {
+      "id": 41,
+      "workshop_id": 3,
+      "action_type": "REGISTERED",
+      "user_name": "Nick Fury",
+      "user_email": "nick.fury@example.com",
+      "message": "Nick Fury registered for Cloud-Native Kubernetes & Microservices",
+      "created_at": "2026-10-07T22:19:02.079Z"
+    }
+  ],
+  "email_logs": [
+    {
+      "id": 7,
+      "to_email": "vhyfty@gmail.com",
+      "to_name": "fvyfv",
+      "subject": "ℹ️ Registration Cancelled: \"Mastering Generative AI & Autonomous Agents\"",
+      "preview": "Your registration has been cancelled and your seat has been released.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: #64748b; padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Registration Cancelled</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop: Mastering Generative AI & Autonomous Agents</p>\n          </div>\n          <p>Hi <strong>fvyfv</strong>,</p>\n          <p>This is to confirm that your registration for <strong>\"Mastering Generative AI & Autonomous Agents\"</strong> has been successfully cancelled.</p>\n          <p>Your seat has been released to the next person waiting on the queue. Thank you for notifying us!</p>\n        </div>\n      ",
+      "type": "CANCELLATION_CONFIRMATION",
+      "workshop_title": "Mastering Generative AI & Autonomous Agents",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc9O0YSGgV87UGuasc.tMAYPlgYiZc3AAAAAlyEbL18mXpLegqE2hFakm8",
+      "error_message": null,
+      "sent_at": "2026-10-08T07:01:08.538Z"
+    },
+    {
+      "id": 6,
+      "to_email": "vhyfty@gmail.com",
+      "to_name": "fvyfv",
+      "subject": "🎉 Confirmed: You're registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "preview": "Your seat is confirmed for Oct 24, 2026 at 10:00 AM - 1:00 PM EST.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Seat Confirmed! 🚀</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop Registration</p>\n          </div>\n          <p>Hi <strong>fvyfv</strong>,</p>\n          <p>Great news! Your seat has been successfully reserved for:</p>\n          <div style=\"background: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 16px 0; border-radius: 4px;\">\n            <h3 style=\"margin: 0 0 8px; color: #1e293b;\">Mastering Generative AI & Autonomous Agents</h3>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📅 Date:</strong> Oct 24, 2026 at 10:00 AM - 1:00 PM EST</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📍 Location:</strong> Virtual Auditorium Alpha (Zoom)</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>👨‍🏫 Instructor:</strong> Dr. Elena Rostova (Principal AI Research Scientist @ DeepCognition)</p>\n          </div>\n          \n          <div style=\"background: #eef2ff; border: 1px solid #c7d2fe; padding: 16px; border-radius: 8px; margin: 20px 0;\">\n            <p style=\"margin: 0 0 8px; font-weight: bold; color: #3730a3;\">🎟️ Your Cancellation ID / Token:</p>\n            <p style=\"margin: 0; font-family: monospace; font-size: 14px; background: #ffffff; padding: 8px 12px; border-radius: 4px; border: 1px solid #c7d2fe; color: #1e1b4b; word-break: break-all;\">\n              d3e4c156-121d-427c-a91d-e4cdc89de691\n            </p>\n            <p style=\"margin: 8px 0 0; font-size: 12px; color: #4338ca;\">\n              Keep this cancellation ID handy or click the button below if your plans change.\n            </p>\n          </div>\n\n          <p>If your plans change, please release your seat so someone on the waitlist can take your spot:</p>\n          <div style=\"margin-top: 20px;\">\n            <a href=\"http://localhost:5173/cancel?token=d3e4c156-121d-427c-a91d-e4cdc89de691&workshop=1\" style=\"background: #ef4444; color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">Cancel My Registration</a>\n          </div>\n        </div>\n      ",
+      "type": "REGISTRATION_CONFIRMATION",
+      "workshop_title": "Mastering Generative AI & Autonomous Agents",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc9O0YSGgV87UGuasc.m8AYPlgYiZcjAAAAAYO0am3LU11CjUe80z.qDJ4",
+      "error_message": null,
+      "sent_at": "2026-10-08T07:00:44.065Z"
+    },
+    {
+      "id": 5,
+      "to_email": "reachadityaukil@gmail.com",
+      "to_name": "Aditya Ukil",
+      "subject": "🎉 Confirmed: You're registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "preview": "Your seat is confirmed for Oct 24, 2026 at 10:00 AM - 1:00 PM EST.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Seat Confirmed! 🚀</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop Registration</p>\n          </div>\n          <p>Hi <strong>Aditya Ukil</strong>,</p>\n          <p>Great news! Your seat has been successfully reserved for:</p>\n          <div style=\"background: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 16px 0; border-radius: 4px;\">\n            <h3 style=\"margin: 0 0 8px; color: #1e293b;\">Mastering Generative AI & Autonomous Agents</h3>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📅 Date:</strong> Oct 24, 2026 at 10:00 AM - 1:00 PM EST</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📍 Location:</strong> Virtual Auditorium Alpha (Zoom)</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>👨‍🏫 Instructor:</strong> Dr. Elena Rostova (Principal AI Research Scientist @ DeepCognition)</p>\n          </div>\n          \n          <div style=\"background: #eef2ff; border: 1px solid #c7d2fe; padding: 16px; border-radius: 8px; margin: 20px 0;\">\n            <p style=\"margin: 0 0 8px; font-weight: bold; color: #3730a3;\">🎟️ Your Cancellation ID / Token:</p>\n            <p style=\"margin: 0; font-family: monospace; font-size: 14px; background: #ffffff; padding: 8px 12px; border-radius: 4px; border: 1px solid #c7d2fe; color: #1e1b4b; word-break: break-all;\">\n              392164e7-8e45-46b6-98b5-975693f9a327\n            </p>\n            <p style=\"margin: 8px 0 0; font-size: 12px; color: #4338ca;\">\n              Keep this cancellation ID handy or click the button below if your plans change.\n            </p>\n          </div>\n\n          <p>If your plans change, please release your seat so someone on the waitlist can take your spot:</p>\n          <div style=\"margin-top: 20px;\">\n            <a href=\"http://localhost:5000/cancel?token=392164e7-8e45-46b6-98b5-975693f9a327&workshop=1\" style=\"background: #ef4444; color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">Cancel My Registration</a>\n          </div>\n        </div>\n      ",
+      "type": "REGISTRATION_CONFIRMATION",
+      "workshop_title": "Mastering Generative AI & Autonomous Agents",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc5BEYSGgV87PAUasc5YrJrKujo8-ODAAAAAbo6jtAyI6qfmZDZv.C360o",
+      "error_message": null,
+      "sent_at": "2026-10-08T06:34:10.282Z"
+    },
+    {
+      "id": 4,
+      "to_email": "reachadityaukil@gmail.com",
+      "to_name": "Aditya Ukil",
+      "subject": "ℹ️ Registration Cancelled: \"Mastering Generative AI & Autonomous Agents\"",
+      "preview": "Your registration has been cancelled and your seat has been released.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: #64748b; padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Registration Cancelled</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop: Mastering Generative AI & Autonomous Agents</p>\n          </div>\n          <p>Hi <strong>Aditya Ukil</strong>,</p>\n          <p>This is to confirm that your registration for <strong>\"Mastering Generative AI & Autonomous Agents\"</strong> has been successfully cancelled.</p>\n          <p>Your seat has been released to the next person waiting on the queue. Thank you for notifying us!</p>\n        </div>\n      ",
+      "type": "CANCELLATION_CONFIRMATION",
+      "workshop_title": "Mastering Generative AI & Autonomous Agents",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc0MkYSGgV87JTUasc2f7JrKujo8-JoAAAABskbj3me7L59WcPSe-NhOQw",
+      "error_message": null,
+      "sent_at": "2026-10-08T06:21:52.080Z"
+    },
+    {
+      "id": 3,
+      "to_email": "reachadityaukil@gmail.com",
+      "to_name": "Aditya Ukil",
+      "subject": "ℹ️ Registration Cancelled: \"Next.js 15 & React 19 Full-Stack Architecture Masterclass\"",
+      "preview": "Your registration has been cancelled and your seat has been released.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: #64748b; padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Registration Cancelled</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop: Next.js 15 & React 19 Full-Stack Architecture Masterclass</p>\n          </div>\n          <p>Hi <strong>Aditya Ukil</strong>,</p>\n          <p>This is to confirm that your registration for <strong>\"Next.js 15 & React 19 Full-Stack Architecture Masterclass\"</strong> has been successfully cancelled.</p>\n          <p>Your seat has been released to the next person waiting on the queue. Thank you for notifying us!</p>\n        </div>\n      ",
+      "type": "CANCELLATION_CONFIRMATION",
+      "workshop_title": "Next.js 15 & React 19 Full-Stack Architecture Masterclass",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc0MkYSGgV87JTUasc2e1z99noLdX3dAAAABbt2aARmEvonGafD0wV.CHk",
+      "error_message": null,
+      "sent_at": "2026-10-08T06:21:48.186Z"
+    },
+    {
+      "id": 2,
+      "to_email": "reachadityaukil@gmail.com",
+      "to_name": "Aditya Ukil",
+      "subject": "⏳ Waitlist Confirmation: \"Next.js 15 & React 19 Full-Stack Architecture Masterclass\" (Position #3)",
+      "preview": "You are #3 on the waitlist. We'll automatically notify and promote you if a seat opens!",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: linear-gradient(135deg, #f59e0b, #d97706); padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">You're on the Waitlist! ⏳</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Priority Queue Position #3</p>\n          </div>\n          <p>Hi <strong>Aditya Ukil</strong>,</p>\n          <p>The workshop <strong>\"Next.js 15 & React 19 Full-Stack Architecture Masterclass\"</strong> is currently at full capacity (<strong>5 seats filled</strong>).</p>\n          <p>You have been placed at <strong>Position #3</strong> on the priority waitlist. If an attendee cancels their seat, our automated queue system will immediately promote you and deliver a confirmed seat pass!</p>\n          <div style=\"background: #fffbeb; border-left: 4px solid #f59e0b; padding: 16px; margin: 16px 0; border-radius: 4px;\">\n            <p style=\"margin: 0; color: #92400e;\"><strong>Workshop Date:</strong> Oct 26, 2026 at 2:00 PM - 5:30 PM EST</p>\n            <p style=\"margin: 4px 0 0; color: #92400e;\"><strong>Location:</strong> San Francisco Tech Hub - Room 402</p>\n          </div>\n          \n        </div>\n      ",
+      "type": "WAITLIST_CONFIRMATION",
+      "workshop_title": "Next.js 15 & React 19 Full-Stack Architecture Masterclass",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc0MkYSGgV87JTUasc2ULJrKujo8-JbAAAABNIqxsWheR1nWdnM5uWFtY4",
+      "error_message": null,
+      "sent_at": "2026-10-08T06:21:04.666Z"
+    },
+    {
+      "id": 1,
+      "to_email": "reachadityaukil@gmail.com",
+      "to_name": "Aditya Ukil",
+      "subject": "🎉 Confirmed: You're registered for \"Mastering Generative AI & Autonomous Agents\"",
+      "preview": "Your seat is confirmed for Oct 24, 2026 at 10:00 AM - 1:00 PM EST.",
+      "content_html": "\n        <div style=\"font-family: sans-serif; max-width: 600px; margin: auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px; background: #ffffff;\">\n          <div style=\"background: linear-gradient(135deg, #4f46e5, #7c3aed); padding: 20px; border-radius: 8px; color: white; margin-bottom: 20px;\">\n            <h2 style=\"margin: 0; font-size: 22px;\">Seat Confirmed! 🚀</h2>\n            <p style=\"margin: 5px 0 0; opacity: 0.9;\">Workshop Registration</p>\n          </div>\n          <p>Hi <strong>Aditya Ukil</strong>,</p>\n          <p>Great news! Your seat has been successfully reserved for:</p>\n          <div style=\"background: #f8fafc; border-left: 4px solid #4f46e5; padding: 16px; margin: 16px 0; border-radius: 4px;\">\n            <h3 style=\"margin: 0 0 8px; color: #1e293b;\">Mastering Generative AI & Autonomous Agents</h3>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📅 Date:</strong> Oct 24, 2026 at 10:00 AM - 1:00 PM EST</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>📍 Location:</strong> Virtual Auditorium Alpha (Zoom)</p>\n            <p style=\"margin: 4px 0; color: #64748b;\"><strong>👨‍🏫 Instructor:</strong> Dr. Elena Rostova (Principal AI Research Scientist @ DeepCognition)</p>\n          </div>\n          \n          <div style=\"background: #eef2ff; border: 1px solid #c7d2fe; padding: 16px; border-radius: 8px; margin: 20px 0;\">\n            <p style=\"margin: 0 0 8px; font-weight: bold; color: #3730a3;\">🎟️ Your Cancellation ID / Token:</p>\n            <p style=\"margin: 0; font-family: monospace; font-size: 14px; background: #ffffff; padding: 8px 12px; border-radius: 4px; border: 1px solid #c7d2fe; color: #1e1b4b; word-break: break-all;\">\n              df2199d6-3026-451d-87c3-ed66f5f29746\n            </p>\n            <p style=\"margin: 8px 0 0; font-size: 12px; color: #4338ca;\">\n              Keep this cancellation ID handy or click the button below if your plans change.\n            </p>\n          </div>\n\n          <p>If your plans change, please release your seat so someone on the waitlist can take your spot:</p>\n          <div style=\"margin-top: 20px;\">\n            <a href=\"http://localhost:5000/cancel?token=df2199d6-3026-451d-87c3-ed66f5f29746&workshop=1\" style=\"background: #ef4444; color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: bold; display: inline-block;\">Cancel My Registration</a>\n          </div>\n        </div>\n      ",
+      "type": "REGISTRATION_CONFIRMATION",
+      "workshop_title": "Mastering Generative AI & Autonomous Agents",
+      "delivery_status": "DELIVERED_VIA_ETHEREAL",
+      "preview_url": "https://ethereal.email/message/asc0MkYSGgV87JTUasc2IFz99noLdX3CAAAAA4FGLeubzEgBYG9vFhchQCk",
+      "error_message": null,
+      "sent_at": "2026-10-08T06:20:16.676Z"
+    }
+  ],
+  "smtp_settings": null,
+  "counters": {
+    "workshops": 3,
+    "registrations": 45,
+    "activity_logs": 48,
+    "email_logs": 7
+  }
+}

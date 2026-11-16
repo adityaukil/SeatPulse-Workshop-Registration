@@ -1,0 +1,18 @@
+{
+  "name": "workshop-server",
+  "version": "1.0.0",
+  "description": "Workshop Registration Backend with atomic seat limits, waitlist, and websockets",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^10.0.16",
+    "socket.io": "^4.8.1"
+  }
+}
